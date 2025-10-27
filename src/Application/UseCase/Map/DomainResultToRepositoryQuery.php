@@ -2,13 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Libretrix\BitrixCleanCore\Application\Repository;
+namespace Libretrix\BitrixCleanCore\Application\UseCase\Map;
 
-use Libretrix\BitrixCleanCore\Application\Find\ComparisonOperator;
-use Libretrix\BitrixCleanCore\Application\Find\Condition;
-use Libretrix\BitrixCleanCore\Application\Find\Order;
-use Libretrix\BitrixCleanCore\Application\Find\OrderType;
-use Libretrix\BitrixCleanCore\Application\Find\Type;
+use Libretrix\BitrixCleanCore\Application\Repository\RepositoryQuery;
+use Libretrix\BitrixCleanCore\Application\UseCase\Input\ComparisonOperator;
+use Libretrix\BitrixCleanCore\Application\UseCase\Input\Condition;
+use Libretrix\BitrixCleanCore\Application\UseCase\Input\Order;
+use Libretrix\BitrixCleanCore\Application\UseCase\Input\OrderType;
+use Libretrix\BitrixCleanCore\Application\UseCase\Input\Type;
 use Libretrix\BitrixCleanCore\Domain\Model\Find\Criteria;
 use Libretrix\BitrixCleanCore\Domain\Model\Find\Order as DomainOrder;
 use Libretrix\BitrixCleanCore\Domain\Model\Find\Result;

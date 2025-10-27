@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Libretrix\BitrixCleanCore\Application\IBlock;
+namespace Libretrix\BitrixCleanCore\Application\UseCase\Map;
 
-use Libretrix\BitrixCleanCore\Application\IBlock\Output\Output;
-use Libretrix\BitrixCleanCore\Application\IBlock\Output\OutputModel;
-use Libretrix\BitrixCleanCore\Application\IBlock\Output\OutputValue;
 use Libretrix\BitrixCleanCore\Application\Repository\Record;
+use Libretrix\BitrixCleanCore\Application\UseCase\Output\Output;
+use Libretrix\BitrixCleanCore\Application\UseCase\Output\OutputModel;
+use Libretrix\BitrixCleanCore\Application\UseCase\Output\OutputValue;
 
-final readonly class DomainRecordsToOutput
+final readonly class RecordsToOutput
 {
     public function __construct(
         /** @var Record[] */

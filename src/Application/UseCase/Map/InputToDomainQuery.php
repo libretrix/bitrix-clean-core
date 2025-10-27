@@ -2,8 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Libretrix\BitrixCleanCore\Application\Find;
+namespace Libretrix\BitrixCleanCore\Application\UseCase\Map;
 
+use Libretrix\BitrixCleanCore\Application\UseCase\Input\Input;
 use Libretrix\BitrixCleanCore\Domain\Model\Find\ComparisonOperator;
 use Libretrix\BitrixCleanCore\Domain\Model\Find\Criteria as DomainCondition;
 use Libretrix\BitrixCleanCore\Domain\Model\Find\Order as DomainOrder;

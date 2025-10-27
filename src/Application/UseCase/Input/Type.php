@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Libretrix\BitrixCleanCore\Application\Find;
+namespace Libretrix\BitrixCleanCore\Application\UseCase\Input;
 
 final class Type
 {
