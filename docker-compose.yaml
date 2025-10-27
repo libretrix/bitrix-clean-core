@@ -1,0 +1,13 @@
+services:
+  bcc-php-backend:
+    build: docker/php
+    container_name: bcc-php-backend
+    working_dir: /var/www/html
+    user: www
+    restart: always
+    volumes:
+      - .:/var/www/html
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    environment:
+      PHP_CS_FIXER_IGNORE_ENV: "1"
