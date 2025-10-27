@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Libretrix\BitrixCleanCore\Domain\Model\Rules;
+namespace Libretrix\BitrixCleanCore\Domain\Model\InfoBlock\Rules;
 
-use Libretrix\BitrixCleanCore\Domain\Model\Find\MapToInterface;
-use Libretrix\BitrixCleanCore\Domain\Model\Find\Order;
-use Libretrix\BitrixCleanCore\Domain\Model\Find\OrderType;
+use Libretrix\BitrixCleanCore\Domain\Model\QueryModel\MapToInterface;
+use Libretrix\BitrixCleanCore\Domain\Model\QueryModel\Order;
+use Libretrix\BitrixCleanCore\Domain\Model\QueryModel\OrderType;
 
 final readonly class RuleOrders
 {

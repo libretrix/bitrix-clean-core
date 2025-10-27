@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Libretrix\BitrixCleanCore\Application\UseCase\Output;
+namespace Libretrix\BitrixCleanCore\Application\Output;
 
 final class OutputModel
 {

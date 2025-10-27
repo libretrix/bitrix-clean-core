@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Libretrix\BitrixCleanCore\Domain\Model\Find;
+namespace Libretrix\BitrixCleanCore\Application\QueryModel;
 
-final readonly class Type
+final class Type
 {
     public function __construct(
         public string $type,

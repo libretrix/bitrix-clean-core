@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Libretrix\BitrixCleanCore\Application\UseCase\Map;
+namespace Libretrix\BitrixCleanCore\Application\Map;
 
+use Libretrix\BitrixCleanCore\Application\Output\Output;
+use Libretrix\BitrixCleanCore\Application\Output\OutputModel;
+use Libretrix\BitrixCleanCore\Application\Output\OutputValue;
 use Libretrix\BitrixCleanCore\Application\Repository\Record;
-use Libretrix\BitrixCleanCore\Application\UseCase\Output\Output;
-use Libretrix\BitrixCleanCore\Application\UseCase\Output\OutputModel;
-use Libretrix\BitrixCleanCore\Application\UseCase\Output\OutputValue;
 
 final readonly class RecordsToOutput
 {

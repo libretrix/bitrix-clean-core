@@ -2,14 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Libretrix\BitrixCleanCore\Application\UseCase\Map;
+namespace Libretrix\BitrixCleanCore\Application\Map;
 
-use Libretrix\BitrixCleanCore\Application\UseCase\Input\Input;
-use Libretrix\BitrixCleanCore\Domain\Model\Find\ComparisonOperator;
-use Libretrix\BitrixCleanCore\Domain\Model\Find\Criteria as DomainCondition;
-use Libretrix\BitrixCleanCore\Domain\Model\Find\Order as DomainOrder;
-use Libretrix\BitrixCleanCore\Domain\Model\Find\OrderType;
-use Libretrix\BitrixCleanCore\Domain\Model\Find\Query;
+use Libretrix\BitrixCleanCore\Application\QueryModel\Condition;
+use Libretrix\BitrixCleanCore\Application\QueryModel\Order;
+use Libretrix\BitrixCleanCore\Application\UseCase\Input;
+use Libretrix\BitrixCleanCore\Domain\Model\QueryModel\ComparisonOperator;
+use Libretrix\BitrixCleanCore\Domain\Model\QueryModel\Criteria as DomainCondition;
+use Libretrix\BitrixCleanCore\Domain\Model\QueryModel\Order as DomainOrder;
+use Libretrix\BitrixCleanCore\Domain\Model\QueryModel\OrderType;
+use Libretrix\BitrixCleanCore\Domain\Model\QueryModel\Query;
 
 final readonly class InputToDomainQuery
 {

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Libretrix\BitrixCleanCore\Domain\Model\Rules;
+namespace Libretrix\BitrixCleanCore\Domain\Model\InfoBlock\Rules;
 
-use Libretrix\BitrixCleanCore\Domain\Model\Find\ComparisonOperator;
-use Libretrix\BitrixCleanCore\Domain\Model\Find\Criteria;
-use Libretrix\BitrixCleanCore\Domain\Model\Find\MapToInterface;
+use Libretrix\BitrixCleanCore\Domain\Model\QueryModel\ComparisonOperator;
+use Libretrix\BitrixCleanCore\Domain\Model\QueryModel\Criteria;
+use Libretrix\BitrixCleanCore\Domain\Model\QueryModel\MapToInterface;
 
 final readonly class RuleCriteria
 {

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Libretrix\BitrixCleanCore\Application\UseCase\Input;
+namespace Libretrix\BitrixCleanCore\Domain\Model\QueryModel;
 
-final readonly class Condition
+final readonly class Criteria
 {
     public function __construct(
         public string $field,

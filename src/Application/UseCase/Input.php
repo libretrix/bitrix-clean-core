@@ -2,7 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Libretrix\BitrixCleanCore\Application\UseCase\Input;
+namespace Libretrix\BitrixCleanCore\Application\UseCase;
+
+use Libretrix\BitrixCleanCore\Application\QueryModel\Condition;
+use Libretrix\BitrixCleanCore\Application\QueryModel\Order;
 
 final readonly class Input
 {

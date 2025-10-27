@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Libretrix\BitrixCleanCore\Application\UseCase\Map;
+namespace Libretrix\BitrixCleanCore\Application\Map;
 
+use Libretrix\BitrixCleanCore\Application\QueryModel\ComparisonOperator;
+use Libretrix\BitrixCleanCore\Application\QueryModel\Condition;
+use Libretrix\BitrixCleanCore\Application\QueryModel\Order;
+use Libretrix\BitrixCleanCore\Application\QueryModel\OrderType;
+use Libretrix\BitrixCleanCore\Application\QueryModel\Type;
 use Libretrix\BitrixCleanCore\Application\Repository\RepositoryQuery;
-use Libretrix\BitrixCleanCore\Application\UseCase\Input\ComparisonOperator;
-use Libretrix\BitrixCleanCore\Application\UseCase\Input\Condition;
-use Libretrix\BitrixCleanCore\Application\UseCase\Input\Order;
-use Libretrix\BitrixCleanCore\Application\UseCase\Input\OrderType;
-use Libretrix\BitrixCleanCore\Application\UseCase\Input\Type;
-use Libretrix\BitrixCleanCore\Domain\Model\Find\Criteria;
-use Libretrix\BitrixCleanCore\Domain\Model\Find\Order as DomainOrder;
-use Libretrix\BitrixCleanCore\Domain\Model\Find\Result;
+use Libretrix\BitrixCleanCore\Domain\Model\QueryModel\Criteria;
+use Libretrix\BitrixCleanCore\Domain\Model\QueryModel\Order as DomainOrder;
+use Libretrix\BitrixCleanCore\Domain\Model\QueryModel\Result;
 
 final readonly class DomainResultToRepositoryQuery
 {

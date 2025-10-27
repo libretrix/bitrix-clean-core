@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace Libretrix\BitrixCleanCore\Domain\Model\InfoBlock;
 
-use Libretrix\BitrixCleanCore\Domain\Model\Find\MapToInterface;
-use Libretrix\BitrixCleanCore\Domain\Model\Find\Query;
-use Libretrix\BitrixCleanCore\Domain\Model\Find\Result;
-use Libretrix\BitrixCleanCore\Domain\Model\Find\Type;
 use Libretrix\BitrixCleanCore\Domain\Model\InfoBlock\Field\FieldCollection;
 use Libretrix\BitrixCleanCore\Domain\Model\InfoBlock\Property\PropertyCollection;
-use Libretrix\BitrixCleanCore\Domain\Model\Rules\RuleCriteria;
-use Libretrix\BitrixCleanCore\Domain\Model\Rules\RuleOrders;
+use Libretrix\BitrixCleanCore\Domain\Model\InfoBlock\Rules\RuleCriteria;
+use Libretrix\BitrixCleanCore\Domain\Model\InfoBlock\Rules\RuleOrders;
+use Libretrix\BitrixCleanCore\Domain\Model\QueryModel\MapToInterface;
+use Libretrix\BitrixCleanCore\Domain\Model\QueryModel\Query;
+use Libretrix\BitrixCleanCore\Domain\Model\QueryModel\Result;
+use Libretrix\BitrixCleanCore\Domain\Model\QueryModel\Type;
 
 final readonly class InfoBlock implements InfoBlockInterface
 {
