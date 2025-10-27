@@ -13,7 +13,7 @@ use Libretrix\BitrixCleanCore\Domain\Model\Find\Criteria;
 use Libretrix\BitrixCleanCore\Domain\Model\Find\Order as DomainOrder;
 use Libretrix\BitrixCleanCore\Domain\Model\Find\Result;
 
-final readonly class DomainResultRepositoryQuery
+final readonly class DomainResultToRepositoryQuery
 {
     public function __construct(
         private Result $result,
