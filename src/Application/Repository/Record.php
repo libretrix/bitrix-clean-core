@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Libretrix\BitrixCleanCore\Domain\Model\InfoBlock;
+namespace Libretrix\BitrixCleanCore\Application\Repository;
 
 use Libretrix\BitrixCleanCore\Domain\Exception\ValueNotFoundException;
 
@@ -15,7 +15,7 @@ final readonly class Record
 
     public function getValue(string $code): ValueInterface
     {
-        // тут могут быть инваррианты проверки кода
+        // тут могут быть инварианты проверки кода
 
         return array_find(
             $this->values,

@@ -7,7 +7,7 @@ namespace Libretrix\BitrixCleanCore\Application\IBlock;
 use Libretrix\BitrixCleanCore\Application\IBlock\Output\Output;
 use Libretrix\BitrixCleanCore\Application\IBlock\Output\OutputModel;
 use Libretrix\BitrixCleanCore\Application\IBlock\Output\OutputValue;
-use Libretrix\BitrixCleanCore\Domain\Model\InfoBlock\Record;
+use Libretrix\BitrixCleanCore\Application\Repository\Record;
 
 final readonly class DomainRecordsToOutput
 {
