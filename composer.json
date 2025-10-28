@@ -3,7 +3,9 @@
     "description": "Bitrix Clean Core — a set of abstractions and tools designed to build 1C-Bitrix projects following Robert C. Martin’s Clean Architecture principles.",
     "type": "library",
     "minimum-stability": "stable",
-    "require": {},
+    "require": {
+        "ext-pdo": "*"
+    },
     "require-dev": {
         "phpstan/phpstan": "^2.1",
         "friendsofphp/php-cs-fixer": "^3.87",
