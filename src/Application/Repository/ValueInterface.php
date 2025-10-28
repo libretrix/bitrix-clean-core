@@ -8,5 +8,7 @@ use Libretrix\BitrixCleanCore\Domain\Model\InfoBlock\GetCodeInterface;
 
 interface ValueInterface extends GetCodeInterface
 {
-    public function getValue(): mixed;
+    public mixed $value {
+        get;
+    }
 }
